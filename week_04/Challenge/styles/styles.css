@@ -1,0 +1,14 @@
+body{
+    background-color: palevioletred;
+    text-align: center;
+}
+h1:hover {
+    color: white;
+}
+img{
+    width: 25%;
+}
+p main{
+    text-align: left;
+}
+
