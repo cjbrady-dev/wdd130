@@ -1,0 +1,21 @@
+body{
+    background-color: gray;
+    margin:0%;
+    
+}
+#circles {
+    width: 0 auto;
+}
+.inline {
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+
+   
+}
+#div{
+    text-align: center;
+}
+#div_two{
+    text-align: center;
+}
