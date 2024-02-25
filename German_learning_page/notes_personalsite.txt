@@ -8,3 +8,5 @@ font 2 - <style>
 </style>
 
 logo - https://www.canva.com/design/DAF9ZCl9iBI/Deh9GwLvCzRww93BKmsA3A/edit?utm_content=DAF9ZCl9iBI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
+Requirements
