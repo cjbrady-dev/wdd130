@@ -1,0 +1,10 @@
+Platlet - https://coolors.co/palette/03071e-370617-6a040f-9d0208-d00000-dc2f02-e85d04-f48c06-faa307-ffba08
+font 1 - <style>
+@import url('https://fonts.googleapis.com/css2?family=Germania+One&family=Rosarivo:ital@0;1&display=swap')
+</style>
+
+font 2 - <style>
+@import url('https://fonts.googleapis.com/css2?family=Germania+One&family=Rosarivo:ital@0;1&display=swap')
+</style>
+
+logo - https://www.canva.com/design/DAF9ZCl9iBI/Deh9GwLvCzRww93BKmsA3A/edit?utm_content=DAF9ZCl9iBI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
