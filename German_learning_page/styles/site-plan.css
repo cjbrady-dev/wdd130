@@ -3,7 +3,7 @@ Any spaces in your font name should be replaced with a +.
 Fonts are separated by a | */
 @import url('https://fonts.googleapis.com/css2?family=Germania+One&family=Rosarivo:ital@0;1&display=swap');
 @import url('https://coolors.co/palette/03071e-370617-6a040f-9d0208-d00000-dc2f02-e85d04-f48c06-faa307-ffba08');
-@import url('https://fonts.googleapis.com/css2?family=Germania+One&family=Rosarivo:ital@0;1&display=swap');
+
 
 :root {
   /* change the values below to your colors from your palette */
@@ -11,15 +11,14 @@ Fonts are separated by a | */
   --secondary-color: #FFBA08 ;
   --accent1-color: #6A040F;
   --accent2-color: #E85D04;
-  --secondary-color: #9D0208 ;
+  --secondary-color: #6A040F ;
   --accent1-color: #D00000;
   --accent2-color: #FAA307;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Germania One";
   --paragraph-font: "Rosarivo", Helvetica, sans-serif;
-  --heading-font: "Germania One";
-  --paragraph-font: "Rosarivo", Helvetica, sans-serif;
+
 
   /* these colors below should be chosen from among your palette colors above */
   --headline-color-on-white: #FFBA08;  /* headlines on a white background */ 
@@ -29,7 +28,7 @@ Fonts are separated by a | */
   --paragraph-background-color: #03071E  ;
   --nav-link-color: #9D0208;
   --nav-background-color: #E85D04;
-  --nav-hover-link-color: #FAA307;
+  --nav-hover-link-color: #03071E;
   --nav-hover-background-color: #FAA307;
 }
 
@@ -91,7 +90,6 @@ p {
 .primary{
   background-color: var(--primary-color);
   color: var(--accent2-color)
-  color:aliceblue
 }
 .secondary {
   background-color: var(--secondary-color);
