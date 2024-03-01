@@ -2,24 +2,25 @@
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
 @import url('https://coolors.co/palette/03071e-370617-6a040f-9d0208-d00000-dc2f02-e85d04-f48c06-faa307-ffba08');
+@import url('https://fonts.googleapis.com/css2?family=Germania+One&family=Rosarivo:ital@0;1&display=swap');
 
 :root {
   /* change the values below to your colors from your palette */
   --primary-color: #03071E   ;
-  --secondary-color: #9D0208 ;
-  --accent1-color: #E85D04;
-  --accent2-color: white;
+  --secondary-color: #FFBA08 ;
+  --accent1-color: #6A040F;
+  --accent2-color: #E85D04;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "IM Fell French Canon SC";
-  --paragraph-font: Lato, Helvetica, sans-serif;
+  --heading-font: "Germania One";
+  --paragraph-font: "Rosarivo", Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #9D0208;  /* headlines on a white background */ 
-  --headline-color-on-color: #E85D04; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #9D0208; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: #E85D04; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #9D0208  ;
+  --headline-color-on-white: #FFBA08;  /* headlines on a white background */ 
+  --headline-color-on-color: #FFBA08; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #03071E; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: #FFBA08; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #03071E  ;
   --nav-link-color: #9D0208;
   --nav-background-color: #E85D04;
   --nav-hover-link-color: #E85D04;
@@ -83,6 +84,7 @@ p {
 
 .primary {
   background-color: var(--primary-color);
+  color: var(--accent2-color)
 }
 .secondary {
   background-color: var(--secondary-color);
