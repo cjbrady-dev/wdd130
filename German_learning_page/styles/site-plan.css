@@ -180,7 +180,21 @@ nav a:hover {
   border-top: 1px solid;
   border-right: 1px solid;
 }
-0:00
+
+.Block_1, .Block_2, .Block_3, .x {
+  margin-right:auto 0;
+  background-color: #FFBA08 ;
+  color: #03071E;
+}
+p:nth-of-type(1) {
+  text-align: center;
+}
+p:nth-of-type(2) {
+  text-align: center;
+}
+p:nth-of-type(3) {
+  text-align: center;
+}
 
 
 
