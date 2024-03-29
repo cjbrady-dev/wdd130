@@ -21,7 +21,7 @@ Fonts are separated by a | */
 
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #FFBA08;  /* headlines on a white background */ 
+  --headline-color-on-white: #9D0208;  /* headlines on a white background */ 
   --headline-color-on-color: #FFBA08; /* headlines on a colored background */ 
   --paragraph-color-on-white: #03071E; /* paragraph text on a white background */ 
   --paragraph-color-on-color: #FFBA08; /* paragraph text on a colored background */ 
@@ -199,5 +199,74 @@ p:nth-of-type(3) {
   text-align: center;
 }
 
+section {
+  display: grid;
+  grid-template-columns: 1 300px 2 300px;
+  grid-template-rows: 1 200px 2 200px 3 200px;
+}
+
+.tools_block_one { 
+  grid-column: 2;
+  grid-row: 2/2;
+
+
+}
+.tools_block_two {
+  grid-column: 1;
+  grid-row: 2/2;
+
+}
+/* Popup container */
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* The actual popup (appears on top) */
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+/*Week 12 web component*/
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
 
 
