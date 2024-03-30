@@ -111,10 +111,10 @@ nav {
   line-height: 3em;
   text-align: center;
   font-size: 1.2em;
-}
-nav  {
+  margin:auto;
   list-style-type: none;
   display: flex;
+  
 
 }
 nav a {
@@ -122,14 +122,17 @@ nav a {
   min-width: 120px;
   text-decoration: none;
   padding: 10px;
+  margin:auto;
 
 }
 nav a:link, nav a:visited {
   color: var(--nav-link-color);
+  margin:auto;
 }
 nav a:hover {
   color: var(--nav-hover-link-color);
   background-color: var(--nav-hover-background-color);
+  margin:auto;
 }
 
 .sitemap {
@@ -182,40 +185,56 @@ nav a:hover {
 }
 
 .Block_1, .Block_2, .Block_3, .x {
-  margin-right:auto 0;
+  margin-right:right;
+  text-align: center;
   background-color: #FFBA08 ;
   color: #03071E;
 }
 p:nth-of-type(1) {
   text-align: center;
+  margin-right:auto 0;
 }
 p:nth-of-type(2) {
   text-align: center;
+  margin-right:auto 0;
 }
 p:nth-of-type(3) {
   text-align: center;
+  margin-right:auto 0;
 }
 #my_name {
   text-align: center;
 }
 
 section {
+  /* This is the parent of the activity 1 boxes. */
   display: grid;
-  grid-template-columns: 1 300px 2 300px;
-  grid-template-rows: 1 200px 2 200px 3 200px;
-}
+  justify-items: center;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
 
+}
 .tools_block_one { 
-  grid-column: 2;
-  grid-row: 2/2;
+  word-wrap: break-word;
+  position: 3/3;
+  width: auto; 
+  height: auto; 
+  text-wrap: balance;
+  /* background-color: green; */
 
-
-}
+} 
 .tools_block_two {
-  grid-column: 1;
-  grid-row: 2/2;
+  word-wrap: break-word;
+  grid-column: 0/3;
+  width: 800px; 
+  height: auto; 
+  /* background-color: red; */
 
 }
+#p2 {
+  height: 500px;
+}
+
 /* Popup container */
 .popup {
   position: relative;
@@ -269,4 +288,13 @@ section {
   to {opacity:1 ;}
 }
 
+.content {
+  max-width: 1600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#page_1_pic {
+  display:flex;
+}
 
