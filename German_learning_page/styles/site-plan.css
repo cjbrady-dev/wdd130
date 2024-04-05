@@ -50,7 +50,13 @@ body {
 img {
   display: block;
   margin: 0 auto;
+<<<<<<< HEAD
   width: 100%;
+=======
+  display: block;
+  width: 70%;
+  height: 0 auto;
+>>>>>>> 1f36eb014b68ea8fcc972392921cbcd1bc7e48a8
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
@@ -237,6 +243,47 @@ section {
   /* background-color: red; */
 
 }
+<<<<<<< HEAD
+=======
+#p2 {
+  height: 500px;
+}
+
+/* Popup container */
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* The actual popup (appears on top) */
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+/*Week 12 web component*/
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+>>>>>>> 1f36eb014b68ea8fcc972392921cbcd1bc7e48a8
 
 /* Add animation (fade in the popup) */
 @-webkit-keyframes fadeIn {
