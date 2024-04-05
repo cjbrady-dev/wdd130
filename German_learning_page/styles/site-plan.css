@@ -41,10 +41,16 @@ body {
   padding: 4em;
   font-size: 18px;
   text-align: center;
+  background-color: #FFBA08;
+}
+#logo {
+  height: 500px;
+  width:  500px;
 }
 img {
   display: block;
   margin: 0 auto;
+  width: 100%;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
@@ -185,22 +191,22 @@ nav a:hover {
 }
 
 .Block_1, .Block_2, .Block_3, .x {
-  margin-right:right;
+  margin-right:auto;
   text-align: center;
   background-color: #FFBA08 ;
   color: #03071E;
 }
 p:nth-of-type(1) {
   text-align: center;
-  margin-right:auto 0;
+  margin-right:auto;
 }
 p:nth-of-type(2) {
   text-align: center;
-  margin-right:auto 0;
+  margin-right:auto;
 }
 p:nth-of-type(3) {
   text-align: center;
-  margin-right:auto 0;
+  margin-right:auto;
 }
 #my_name {
   text-align: center;
@@ -231,51 +237,6 @@ section {
   /* background-color: red; */
 
 }
-#p2 {
-  height: 500px;
-}
-
-/* Popup container */
-.popup {
-  position: relative;
-  display: inline-block;
-  cursor: pointer;
-}
-
-/* The actual popup (appears on top) */
-.popup .popuptext {
-  visibility: hidden;
-  width: 160px;
-  background-color: #555;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 8px 0;
-  position: absolute;
-  z-index: 1;
-  bottom: 125%;
-  left: 50%;
-  margin-left: -80px;
-}
-/*Week 12 web component*/
-/* Popup arrow */
-.popup .popuptext::after {
-  content: "";
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  margin-left: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: #555 transparent transparent transparent;
-}
-
-/* Toggle this class when clicking on the popup container (hide and show the popup) */
-.popup .show {
-  visibility: visible;
-  -webkit-animation: fadeIn 1s;
-  animation: fadeIn 1s
-}
 
 /* Add animation (fade in the popup) */
 @-webkit-keyframes fadeIn {
@@ -295,6 +256,6 @@ section {
 }
 
 #page_1_pic {
-  display:flex;
+  width: 100%;
 }
 
