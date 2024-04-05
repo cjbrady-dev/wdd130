@@ -50,13 +50,8 @@ body {
 img {
   display: block;
   margin: 0 auto;
-<<<<<<< HEAD
   width: 100%;
-=======
-  display: block;
-  width: 70%;
-  height: 0 auto;
->>>>>>> 1f36eb014b68ea8fcc972392921cbcd1bc7e48a8
+
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
