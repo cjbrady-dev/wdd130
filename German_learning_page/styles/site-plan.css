@@ -216,14 +216,17 @@ p:nth-of-type(3) {
 section {
   /* This is the parent of the activity 1 boxes. */
   display: grid;
+  gap: 15px;
   justify-items: center;
   grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   gap: 20px;
 
 }
 .tools_block_one { 
   word-wrap: break-word;
-  position: 3/3;
+  grid-column: 2;
+  grid-row: 1;
   width: auto; 
   height: auto; 
   text-wrap: balance;
@@ -232,12 +235,23 @@ section {
 } 
 .tools_block_two {
   word-wrap: break-word;
-  grid-column: 0/3;
-  width: 800px; 
-  height: auto; 
+  grid-column: 1;
+  grid-row: 1;
+  /* width: 800px; 
+  height: auto; */
+} 
+.tools_block_three {
+  word-wrap: break-word;
+  grid-column: 1;
+  grid-row: 2;
+}
+.tools_block_four {
+  word-wrap: break-word;
+  grid-column: 2;
+  grid-row: 2;
+}
   /* background-color: red; */
 
-}
 
 /* Add animation (fade in the popup) */
 @-webkit-keyframes fadeIn {
@@ -260,3 +274,7 @@ section {
   width: 100%;
 }
 
+#castle {
+  height: 372px;
+  width: 496px;
+}
